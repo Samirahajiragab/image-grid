@@ -81,8 +81,7 @@ section {
   }
 
   .photo:nth-child(5) {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
   }
 
   .photo:nth-child(1) {
