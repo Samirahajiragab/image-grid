@@ -17,6 +17,11 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 img {
   display: block;
   width: 100%;
@@ -29,8 +34,8 @@ section{
 
   .photo:nth-child(2),
   .photo:nth-child(5) {
-    display: none;
-  }
+  display: none;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -38,13 +43,13 @@ section{
   .photo:nth-child(3),
   .photo:nth-child(4),
   .photo:nth-child(5) {
-    width: 50%;
-    display: block;
-  }
+  width: 50%;
+  display: block;
+}
 
   .photo:nth-child(1) {
-    width: 100%;
-  }
+  width: 100%;
+}
 
 }
 
@@ -53,18 +58,20 @@ section{
   .photo:nth-child(2),
   .photo:nth-child(3),
   .photo:nth-child(4) {
-   width: 33.3333%;
-  }
+  width: 33.3333%;
+}
 
-.photo:nth-child(5){
+.photo:nth-child(5) {
   display: none;
 }
 
   .photo:nth-child(1) {
     display: block;
     width: 100%;
-  }
 }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .photo:nth-child(1)
@@ -73,14 +80,15 @@ section{
   .photo:nth-child(4),
   .photo:nth-child(5) {
    width: 33.3333%;
-  }
+}
 
-  .photo:nth-child(5){
+  .photo:nth-child(5) {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
   .photo:nth-child(1) {
     width: 66.6666%;
-  }
+}
+
 }
